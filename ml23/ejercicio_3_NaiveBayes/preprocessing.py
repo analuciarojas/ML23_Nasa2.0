@@ -22,8 +22,7 @@ def get_vocab(dataset):
     vocabulary['UNK'] = idx
     return vocabulary
 
-def get_one_hot_vector(text, vocabulary):
-    ''' # TODO
+    ''' #
         Dado un texto y un vocabulario, devuelve un vector one-hot
         donde el valor sea 1 si la palabra esta en el texto y 0 en caso contrario.
         Ejemplo:
@@ -35,14 +34,17 @@ def get_one_hot_vector(text, vocabulary):
             }
             one_hot = [1, 1, 0]
     '''
-    one_hot = np.zeros(len(vocabulary))
-    # TODO: Genera el vector X dato el texto y vocabulario
-
-    return one_hot
+      # TODO: Genera el vector X dato el texto y vocabulario
+def get_one_hot_vector(text, vocabulary):
+        one_hot = np.zeros(len(vocabulary))
+        for word in text.split():
+            if word in vocabulary:
+             one_hot[vocabulary[word]] = 1
+        return one_hot
 
 def preprocess_dataset(dataset, vocabulary):
     '''
-        Datado un dataset (x, y) donde x es un texto y y es la etiqueta,
+       #TODO Datado un dataset (x, y) donde x es un texto y y es la etiqueta,
         devuelve una matriz X donde cada fila es un vector one-hot
         y un vector y con las etiquetas.
         Ejemplo:
