@@ -4,8 +4,7 @@
 En este proyecto, entraremos en el mundo de la visión por computadora y el aprendizaje automático para identificar dígitos escritos a mano a partir de imágenes. Utilizaremos el conjunto de datos Digits, que contiene 1797 imágenes de 8x8 píxeles, para entrenar y validar nuestros modelos. Nuestro objetivo es predecir con la mayor precisión posible a qué número corresponde cada imagen, aplicando diferentes técnicas y métodos aprendidos en clase.
 
 ## Modelos de clasificación
-### K-means (agrupamiento)
-### Regresión Logística (clasificación)
+Se decidió comparar un el método de agrupamiento **K-means** con el método de clasificación **Regresión Logística**, esto para poder comparar cuál realiza las mejores predicciones. Se escogió regresión por su relativamente sencilla implementación.
 
 ## Visualización en baja dimensionalidad
 
