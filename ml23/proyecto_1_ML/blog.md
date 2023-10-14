@@ -128,6 +128,7 @@ for model_type, modelo in trained_models.items():
     vis_low_dim(data_val, preds, model_type)
 ```
 Grupos: 10, se realizaron 450 predicciones
+
 ![download](https://github.com/analuciarojas/ML23_Nasa2.0/assets/101476793/27f28c78-3119-46ae-a8f2-f8fe1290c4a9)
 ![download](https://github.com/analuciarojas/ML23_Nasa2.0/assets/101476793/4502d8ef-6f79-43df-9a4b-cf8d97558e16)
 
@@ -246,14 +247,20 @@ for name, metrics in model_metrics.items():
 
 ### K-means
 Accuracy: 0.05555555555555555
+
 F1 Score: 0.06756756756756757
+
 Precision: 0.08333333333333334
+
 Recall: 0.05681818181818182
 
 ### Regresión Logística
 Accuracy: 0.9666666666666667
+
 F1 Score: 0.9667957492952493
+
 Precision: 0.9665632527868884
+
 Recall: 0.9678913306011511
 
 ## Conclusión
