@@ -27,7 +27,7 @@ for c in labels:
 plt.show()
 ```
 
-![Alt text](image.png)
+![download](https://github.com/analuciarojas/ML23_Nasa2.0/assets/101476793/209ef41f-2f3c-4aa2-baa9-4997e07d170e)
 
 ## Entrenamiento
 
@@ -128,8 +128,9 @@ for model_type, modelo in trained_models.items():
     vis_low_dim(data_val, preds, model_type)
 ```
 Grupos: 10, se realizaron 450 predicciones
-![Alt text](image-1.png)
-![Alt text](image-2.png)
+![download](https://github.com/analuciarojas/ML23_Nasa2.0/assets/101476793/27f28c78-3119-46ae-a8f2-f8fe1290c4a9)
+![download](https://github.com/analuciarojas/ML23_Nasa2.0/assets/101476793/4502d8ef-6f79-43df-9a4b-cf8d97558e16)
+
 
 Cada grupo en la imagen representa un digito del 0 al 9, se puede observar que ambos modelos si tuvieron aprendizaje y ambos hicieron un relativamente buen trabajo pues se pueden observar los grupos claramente aunque hay imperfecciones, como se puede notar en los puntos que no se acercaron a ningún grupo.
 
@@ -192,10 +193,10 @@ for name, trained_model in trained_models.items():
 ```
 
 ### K-means (agrupamiento)
-![Alt text](image-3.png)
+![download](https://github.com/analuciarojas/ML23_Nasa2.0/assets/101476793/91215e2f-6ec9-4b0a-82c2-8d34668b9632)
 
 ### Regresión Logística (clasificación)
-![Alt text](image-4.png)
+![download](https://github.com/analuciarojas/ML23_Nasa2.0/assets/101476793/4e19093a-b67d-4975-96ad-fefcfb57448a)
 
 Al observar ambas imagenes, se puede ver claramente que el modelo de Regresión puede identificar todos los números. Mientras que K-means falló en casi todos menos el 5, además confunde el 4 con el 9.
 
